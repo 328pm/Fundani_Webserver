@@ -1,20 +1,14 @@
-# PirateBoxScripts with Modifications for running in a Webserver     
-
-[![Join the chat at https://gitter.im/PirateBox-Dev/PirateBoxScripts_Webserver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PirateBox-Dev/PirateBoxScripts_Webserver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-&copy; 2012-2014 [Matthias Strubel](mailto:matthias.strubel@aod-rpg.de) licenced under GPL-3
-
-## Maintainers
-* [Matthias Strubel](matthias.strubel@aod-rpg.de)     
-
-
-PirateBox is a collection of scripts / programs that allows you to use your wireless card
-as a local network to share files and chat anonymously. For more information please visit
-http://daviddarts.com/
+# Base Fundani scripts (webserver scripts)
+  Fundani aims to >>>>>>>>>>>>
+# Developed upon the PirateBox scripts licensed under GPL-3 (Matthias Strubel)
+    PirateBox is a collection of scripts / programs that allows you to use your wireless card
+    as a local network to share files and chat anonymously. For more information please visit
+    http://daviddarts.com/
 
 ----- Info -----
-Packages contains only scripts based PirateBox scripts with running lighttpd webserver.
+The following package contains only scripts based upon the O.G PirateBox scripts for running within a lighttpd webserver.
 
-PirateBox scripts can:
+As such these scripts enable Fundani to:
    * Setup WLAN Interface via iw
    * Setup hotspot functionality (hostapd)
    * Setup IP Adresses of wlan interface
@@ -30,31 +24,9 @@ PirateBox scripts can:
    * Optional imageboard
    * Optional Station counter
    * Optional Inihibit starting upload-script
-   * Optional Timesave script (for devices without RTC)  - can be found in piratebox/bin/timesave.sh 
+   * Optional Timesave script (for devices without RTC)  - can be found in piratebox/bin/timesave.sh
    * Optional Poll for WLAN device until it available (for USB wifi cards)
    * Optional IRC-Server
 
-More information can be found ont http://piratebox.aod-rpg.de
-Installation-HowTo und current Download-Link: http://piratebox.aod-rpg.de/dokuwiki/doku.php/piratebox_lighttpd
-
-Is supported by mkPirateBox > v0.5 for OpenWRT Systems https://github.com/MaStr/mkPirateBox
-and by PirateBox Manager https://github.com/TerrorByte/PirateBox-Manager
-
------ Installation -----
-PirateBox should be in most common repositories soon, but in the mean time you can use this method:
-
-
-##### For alpha testing
-
-Download the package:
-https://github.com/MaStr/PirateBoxScripts_Webserver/archive/development.zip
-
-Unzip the package:
-$unzip development.zip
-
-Run the installer in the unzipped folder:
-$ cd PirateBoxScripts_Webserver/piratebox
-$ sudo ./install.sh default #Default can be substituted with 'board' if you want an image board on your PB
-
-
-
+More information about PirateBox can be found on: http://piratebox.aod-rpg.de
+And more information about Fundani will be located at http://www.328pm.com upin final release
