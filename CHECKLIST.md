@@ -1,14 +1,6 @@
-# Image Testing Checklist
-If you are part of the testing team, this Checklist is for you.
-
 ## For RaspberryPi
 Download the image, dump it to SD card, connect your PirateBox to the same network the computer you are testing from is connected to and then go through the checklist step by step to make sure everything is working as it should.
 Before going through the checklist, make sure your USB WiFi is attached and is one of the supported types. Also make sure you have a *FAT32* formatted USB thumb drive attached to your RPi.
-
-## For OpenWrt
-Download the corresponding install_piratebox.zip and .bin file for your device. If you have already a PirateBox running, follow the upgrade instructions. If you install your Software on a fresh device, follow the installation howto
-Make sure you PirateBox stopped flashing (indicating the installation is running). On PirateBox 1.1.0 the installation happens in multiple interations.
-
 
 ## Checklist
 (Skip sections which are not valid for your architecture).
@@ -81,4 +73,4 @@ Make sure you PirateBox stopped flashing (indicating the installation is running
 **Enhanced Network Configuration**
 * [ ] Clients with static DNS Server entries work while being connected to PirateBox (PirateBox interferes here)
 * [ ] One Client can not ping or connect to another Client (directly via wifi)
-* [ ] 
+* [ ]

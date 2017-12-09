@@ -6,6 +6,7 @@
     http://daviddarts.com/
 
 ----- Info -----
+
 The following package contains only scripts based upon the O.G PirateBox scripts for running within a lighttpd webserver.
 
 As such these scripts enable Fundani to:
@@ -29,4 +30,5 @@ As such these scripts enable Fundani to:
    * Optional IRC-Server
 
 More information about PirateBox can be found on: http://piratebox.aod-rpg.de
-And more information about Fundani will be located at http://www.328pm.com upin final release
+
+And more information about Fundani will be located at http://www.328pm.com upon final release
