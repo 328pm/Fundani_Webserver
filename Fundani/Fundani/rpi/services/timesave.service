@@ -1,0 +1,10 @@
+[Unit]
+Description=Fundani timesave service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/Fundani/bin/timesave.sh /opt/Fundani/conf/Fundani.conf recover
+TimeoutSec=20
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Fundani Service
+
+[Service]
+Type=idle
+RemainAfterExit=yes
+ExecStart=/opt/Fundani/init.d/Fundani_alt start
+ExecStop=/opt/Fundani/init.d/Fundani_alt stop
+#Restart=/opt/Fundani/init.d/Fundani_alt restart
+#PIDFile=/var/run/Fundani.pid
+
+[Install]
+WantedBy=multi-user.target

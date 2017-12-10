@@ -1,14 +1,14 @@
 ## For RaspberryPi
-Download the image, dump it to SD card, connect your PirateBox to the same network the computer you are testing from is connected to and then go through the checklist step by step to make sure everything is working as it should.
+Download the image, dump it to SD card, connect your Fundani to the same network the computer you are testing from is connected to and then go through the checklist step by step to make sure everything is working as it should.
 Before going through the checklist, make sure your USB WiFi is attached and is one of the supported types. Also make sure you have a *FAT32* formatted USB thumb drive attached to your RPi.
 
 ## Checklist
 (Skip sections which are not valid for your architecture).
 
 ### Initial configuration setup
-* [ ] PirateBox' WiFi is available
-* [ ] Connection to PirateBox' WiFi could be established
-* [ ] **RPi only**  SSH connection to PirateBox with the username *alarm* and the password *alarm* could be established
+* [ ] Fundani' WiFi is available
+* [ ] Connection to Fundani' WiFi could be established
+* [ ] **RPi only**  SSH connection to Fundani with the username *alarm* and the password *alarm* could be established
 * [ ] **RPi only**  Message of the day containing information about *First Steps* is displayed correctly
 * [ ] **RPi only** Change the password for the *alarm* user, log out and log back in
 * [ ] **RPi only** Enable USB share
@@ -19,8 +19,8 @@ Before going through the checklist, make sure your USB WiFi is attached and is o
 * [ ] It is possible to upload files
 * [ ] It is possible to post to the board
 * [ ] Reboot
-* [ ] PirateBox' WiFi is available
-* [ ] Connection to PirateBox' WiFi could be established
+* [ ] Fundani' WiFi is available
+* [ ] Connection to Fundani' WiFi could be established
 * [ ] Date matches the set date from the Fake-timeservice
 
 ### Functional tests
@@ -59,7 +59,7 @@ Before going through the checklist, make sure your USB WiFi is attached and is o
 * [ ] It is possible to stream videos via UPNP
 
 **IRC Server**
-* [ ] Is started after activation in piratebox.conf
+* [ ] Is started after activation in Fundani.conf
 * [ ] With an IRC client, the IRC server is usable
 * [ ] New channels can be created
 
@@ -68,9 +68,9 @@ Before going through the checklist, make sure your USB WiFi is attached and is o
 * [ ] PHP was sucessfully enabled in lighttpd.conf and fastcgi processes are visible in "ps"
 * [ ] My custom PHP script is working in /content folder
 * [ ] Deleting the content folder creates a new folder after a reboot
-* [ ] It is possible to change the visible hostname of piratebox using the install_piratebox.sh script
+* [ ] It is possible to change the visible hostname of Fundani using the install_Fundani.sh script
 
 **Enhanced Network Configuration**
-* [ ] Clients with static DNS Server entries work while being connected to PirateBox (PirateBox interferes here)
+* [ ] Clients with static DNS Server entries work while being connected to Fundani (Fundani interferes here)
 * [ ] One Client can not ping or connect to another Client (directly via wifi)
 * [ ]
