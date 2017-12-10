@@ -2,21 +2,21 @@
 
 # ---- TEMPLATE ----
 
-# Hook for modifcation stuff before 
-#          piratebox/bin/install  ... openwrt 
+# Hook for modifcation stuff before
+#          Fundani/bin/install  ... openwrt
 # is started
 
 
-if [ !  -f $1 ] ; then 
-  echo "Config-File $1 not found..." 
+if [ !  -f $1 ] ; then
+  echo "Config-File $1 not found..."
   exit 255
 fi
 
 #Load config
-. $1 
+. $1
 
 #Load openwrt-common config and procedures file!
-. /etc/piratebox.config
+. /etc/Fundani.config
 
 
 # You can uncommend this line to see when hook is starting:

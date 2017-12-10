@@ -2,8 +2,8 @@
 
 # ---- TEMPLATE ----
 
-# Hook for modifcation stuff before 
-#          piratebox/bin/install  ... part2 
+# Hook for modifcation stuff before
+#          Fundani/bin/install  ... part2
 # is run.
 
 if [ !  -f $1 ] ; then
@@ -16,4 +16,3 @@ fi
 
 # You can uncommend this line to see when hook is starting:
 # echo "------------------ Running $0 ------------------"
-
